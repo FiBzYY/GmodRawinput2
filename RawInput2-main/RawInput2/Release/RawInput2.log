@@ -1,0 +1,14 @@
+﻿  detours.cpp
+  disasm.cpp
+  modules.cpp
+  main.cpp
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(84,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(86,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(87,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(140,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(141,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 75 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RawInput2.vcxproj -> C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\Release\RawInput2.exe

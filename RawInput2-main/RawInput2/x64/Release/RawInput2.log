@@ -1,0 +1,90 @@
+﻿  detours.cpp
+  disasm.cpp
+  modules.cpp
+  main.cpp
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(40,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'main.cpp')
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(40,19):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(40,8):
+      while trying to match the argument list '(WCHAR [260], const char *)'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(62,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  (compiling source file 'main.cpp')
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(62,28):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(62,8):
+      while trying to match the argument list '(WCHAR [256], LPSTR)'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(65,11): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(65,11): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(78,31): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
+  (compiling source file 'main.cpp')
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(83,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(85,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(86,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(110,39): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [11]' to 'LPCWSTR'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(110,55):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+      see declaration of 'GetModuleHandleW'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(110,39):
+      while trying to match the argument list '(const char [11])'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(133,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(134,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(302,105): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(308,2): error C2664: 'BOOL SetConsoleTitleW(LPCWSTR)': cannot convert argument 1 from 'const char [15]' to 'LPCWSTR'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(308,18):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(481,1):
+      see declaration of 'SetConsoleTitleW'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(308,2):
+      while trying to match the argument list '(const char [15])'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(323,23): error C2664: 'DWORD GetModuleHandleExtern(DWORD,LPSTR)': cannot convert argument 2 from 'const char [11]' to 'LPSTR'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(323,56):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(51,7):
+      see declaration of 'GetModuleHandleExtern'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(323,23):
+      while trying to match the argument list '(DWORD, const char [11])'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(328,20): error C2664: 'DWORD GetModuleHandleExtern(DWORD,LPSTR)': cannot convert argument 2 from 'const char [9]' to 'LPSTR'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(328,53):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(51,7):
+      see declaration of 'GetModuleHandleExtern'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(328,20):
+      while trying to match the argument list '(DWORD, const char [9])'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,37): error C2664: 'DWORD FindPatternEx(HANDLE,DWORD,DWORD,BYTE *,char *)': cannot convert argument 5 from 'const char [7]' to 'char *'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,113):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\utils.h(75,7):
+      see declaration of 'FindPatternEx'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,37):
+      while trying to match the argument list '(HANDLE, DWORD_PTR, int, PBYTE, const char [7])'
+  
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,24): warning C4312: 'type cast': conversion from '_T' to 'DWORD_PTR *' of greater size
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,24): warning C4312:         with
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,24): warning C4312:         [
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,24): warning C4312:             _T=DWORD
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(329,24): warning C4312:         ]
+C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(337,3): error C2664: 'void Error(char *)': cannot convert argument 1 from 'const char [26]' to 'char *'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(337,9):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(36,6):
+      see declaration of 'Error'
+      C:\Users\jwolf\OneDrive\Desktop\RawInput2-main\RawInput2\main.cpp(337,3):
+      while trying to match the argument list '(const char [26])'
+  
