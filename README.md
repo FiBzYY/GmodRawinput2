@@ -19,3 +19,6 @@ Why RawInput2.exe Can’t Fix This
 
 Conclusion
 The core issue lies in GMod’s raw input pipeline, not in how RawInput2.exe processes movement. Until Facepunch fixes this at the engine level, raw input in GMod will remain unreliable, making a proper RawInput2.exe port functionally impossible.
+
+
+https://github.com/Facepunch/garrysmod-issues/issues/6184
